@@ -1,0 +1,188 @@
+/*Corpo do Site*/
+   body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-image: url(imagens/fundo.jpg);
+  }
+
+
+
+
+/*Cabeçalho*/
+   header{
+    background-color: rgb(184, 143, 162);
+    color:rgb(136, 70, 104);
+    padding:22px;
+    text-align: center;
+   } 
+
+   /*Menu*/
+   nav{
+   margin-top:10px;
+   }
+
+   nav a{
+     color:rgb(56, 26, 41); 
+   }
+    nav a{ 
+      hover:
+    }
+/*Conteúdo Principal*/
+   main{
+      padding: 20px;
+       }
+
+/*Seções*/    
+  section{
+   background-color:rgba(255, 198, 223, 0.493);
+   padding:15PX;
+   margin-bottom:15px;
+   border-radius:17px;
+  }
+
+/*Títulos*/
+  h1{
+   margin:0px;
+   color:rgb(92, 43, 74);
+    }
+
+    h2{
+      color:rgb(238, 210, 224);
+    }
+
+ /*Listas*/
+  ul,ol{
+    padding:50px;
+    }
+
+/*Imagens*/
+  img{
+   max-width: 40%; 
+   border-radius:20px ;
+  }
+
+  /*Tabela*/
+  table{
+    width:100% ;
+    border-collapse: collapse;
+  }
+  th,td{
+      border: 2px solid rgb(110, 41, 72);
+      padding: 12px;
+      text-align: left;
+    color:#582046;
+  }
+
+  th{
+    background-color: #e6c1d9fb;
+  }
+  
+  td{
+    background-color: #d3ced1a2;
+  }
+
+  /*Contato*/
+   
+  form{
+    display: block;
+  }
+    input,textarea,select{
+     width:100% ;
+     margin-bottom: 42px;
+     border:  2px solid rgba(99, 30, 73, 0.705);
+     border-radius: 60px;
+     }
+    
+ /*Rodapé*/
+   footer{
+    background-color: rgba(224, 169, 192, 0.651);
+    color: rgba(207, 166, 191, 0.719);
+    text-align: center;
+    padding: 10px;
+     }
+
+     footer{
+        background-color: #dba4b89f;
+        color:white;
+        text-align: center;
+        padding: 10px;
+      }
+
+  /*Botão*/
+
+      button{
+        background-color: #573a4dcb;
+        color:white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+       }
+       button:hover{
+        background-color: #d3a8b8;
+        color:#8f6c79;
+       }
+
+ /*Respositividade*/
+   @media (max-width: 768px){
+
+    /*body*/
+  
+    body{padding:10px;}
+
+    header {
+      text-align: center;
+      padding: 10PX;
+
+    }
+   h1 {
+    font-size: 20px;
+  }
+
+   
+  h2 {
+    font-size:22px;
+  }
+
+    h3{
+      font-size:18px;
+    }
+
+    p{
+      font-size: 15px;
+      line-height: 1,5;
+    }
+
+    nav{
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+   }
+
+   nav a{
+     display: block;
+     padding: 10px;
+     background-color: #d3a8b8;
+     border-radius: 5px;
+   }
+
+   section{
+    padding: 15px; 
+    margin-bottom: 15px;
+   }
+
+   div{
+    width:100%;
+    box-sizing: 26px;
+   
+    {
+  img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
+
+
+  }
+    
